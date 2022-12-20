@@ -2,6 +2,7 @@
 # 0-square.py by Ehoneah Obed
 """A module that defines a square """
 
+
 class Square:
     """A class that represents a square"""
 
@@ -21,10 +22,10 @@ class Square:
 
         self.__size = size
 
-        def area(self):
-            """
-            Calculate area of the square
-            Returns: The square of the size
-            """
-
-            return (self.__size ** 2)
+    def area(self):
+        """
+        Calculate area of the square
+        Returns: The square of the size
+        """
+ 
+        return (self.__size ** 2)
