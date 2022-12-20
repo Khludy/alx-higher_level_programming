@@ -61,7 +61,7 @@ class Square:
         """Get the area of a Square
         Returns: The size squared
         """
-    return self.__size * self.__size
+        return self.__size * self.__size
 
     def pos_print(self):
         """returns the position in spaces"""
