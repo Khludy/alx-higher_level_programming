@@ -19,6 +19,7 @@ class Square:
             raise TypeError('size must be an integer')
         if size < 0:
             raise ValueError('size must be >= 0')
+
         self.__size = size
 
     @property
@@ -47,7 +48,7 @@ class Square:
         """print the square in # """
 
         if self.__size == 0:
-           print()
+            print()
 
         for i in range(self.__size):
             print("#" * self.__size)
